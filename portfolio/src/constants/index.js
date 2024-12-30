@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -37,45 +36,66 @@ export const EXPERIENCES = [
     year: "Jan. 2019 - Jan. 2020",
     role: "Frontend Developer",
     company: "Paystand",
-    description: `Developed and optimized front-end components using React and Sass, leveraging performance techniques like lazy loading, minification, and caching to enhance user interactions. Built reusable frontend libraries to support the Paystand ecosystem and integrated Paystand APIs for real-time payment processing and analytics using RESTful services and Axios. Collaborated with product, design, and engineering teams to deliver high-quality user experiences with JavaScript, HTML5, and Tailwind. Conducted code reviews to uphold best practices, utilized Git and GitHub for version control, and wrote unit and integration tests with Jest. `,
-    technologies: ["React.js", "Tailwind CSS", "JavaScript", "Axios"],
+    description: `Developed and optimized front-end components using React, leveraging performance techniques like lazy loading, minification, and caching to enhance user interactions. Built reusable frontend libraries to support the Paystand ecosystem and integrated Paystand APIs for real-time payment processing and analytics using RESTful services and Axios. Collaborated with product, design, and engineering teams to deliver high-quality user experiences with JavaScript, HTML5, and Tailwind. Conducted code reviews to uphold best practices, utilized Git and GitHub for version control, and wrote unit and integration tests with Jest. `,
+    technologies: ["React.js", "Tailwind CSS", "Axios"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Admin Dashboard",
     image: project1,
+    link: "https://github.com/Jiaying330/admin-dashboard",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Built a modern React Admin Dashboard with Material-UI, Redux Toolkit, and advanced data visualization using Nivo and Chart.js. Integrated FullCalendar for scheduling, MUI Data Grid for interactive tables, and Formik with Yup for robust form handling. Implemented Pro Sidebar navigation, React Router for routing, and comprehensive testing to ensure reliability and performance.",
+    technologies: [
+      "HTML",
+      "Material UI",
+      "React.js",
+      "Nivo Charts",
+      "Node.js",
+      "MongoDB",
+    ],
   },
   {
-    title: "Task Management App",
+    title: "Nasdaq Private Market Homepage",
     image: project2,
+    link: "https://nasdaq-private-market.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Recreated the Nasdaq Private Market homepage using React, TypeScript, and CSS, implementing modern and complex animations for an engaging user experience. Developed with Vite for fast builds and previews, and styled with Emotion and Sass for dynamic, scalable designs. Leveraged React hooks for state and lifecycle management and ensured code quality with ESLint and TypeScript. This project highlights expertise in creating visually appealing, interactive, and maintainable web applications.",
+    technologies: ["HTML", "CSS", "Sass", "React.js", "TypeScript"],
   },
   {
-    title: "Portfolio Website",
+    title: "Crypto Hunter",
     image: project3,
+    link: "https://crypto-tracker-inky-iota.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a crypto currency tracking app using React and the CoinGecko API to fetch and display real-time cryptocurrency data. Enhanced the user experience with interactive charts created using Chart.js. Styled the application with Material-UI and Emotion for a modern, responsive design. Integrated React Router for seamless navigation, optimized data fetching with Axios, and Firebase for authentication.",
+    technologies: ["HTML", "CSS", "React.js", "Chart.js", "Firebase"],
+  },
+];
+
+export const EDUCATIONS = [
+  {
+    year: "Sept. 2022 - May. 2024",
+    school: "University of Pennsylvania",
+    degree: "Master's Degree",
+    description:
+      "My M.S.E. in Systems Engineering focused on Machine Learning, Web Development, Optimization, and Engineering Entrepreneurship, effectively blending analytical rigor with innovative thinking.",
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    year: "Sept. 2018 - June 2022",
+    school: "University of California, Santa Cruz",
+    degree: "Bachelor's Degree",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "My B.S. in Computer Science focused on Game Design and complemented by coursework in Advanced Programming, Algorithm Analysis, and Software Engineering, merges technical proficiency with creative design.",
   },
 ];
 
 export const CONTACT = {
   address: "San Jose, California ",
-  phoneNo: "+12 4555 666 00 ",
+  phoneNo: "+1 702 713 0162 ",
   email: "jiaying.hou.job@gmail.com",
-  resume: "",
+  resume:
+    "https://docs.google.com/document/d/1rtSu7vAOKp_vs_37RnDAufFobA7PKBqUQK5YS9k3TU4/edit?usp=sharing",
 };

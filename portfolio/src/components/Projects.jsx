@@ -18,15 +18,22 @@ export default function Projects() {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/4 "
             >
               <img
                 src={project.image}
                 alt={project.title}
-                height={150}
-                width={150}
-                className="mb-6 rounded"
+                // height={150}
+                width={220}
+                className="mb-6 rounded aspect-video object-fill"
               />
+              <a
+                href={project.link}
+                className="px-4 py-2 bg-neutral-800 text-purple-400 rounded hover:transform"
+                target="_blank"
+              >
+                live
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
