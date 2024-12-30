@@ -27,13 +27,6 @@ export default function Projects() {
                 width={220}
                 className="mb-6 rounded aspect-video object-fill"
               />
-              <a
-                href={project.link}
-                className="px-4 py-2 bg-neutral-800 text-purple-400 rounded hover:transform"
-                target="_blank"
-              >
-                live
-              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -41,7 +34,19 @@ export default function Projects() {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <h6
+                // href={project.link}
+                className="mb-2 font-semibold"
+              >
+                {project.title}
+                <a
+                  href={project.link}
+                  className="ml-4 px-4 py-1 bg-neutral-800 text-purple-400 rounded hover:bg-purple-400 hover:text-neutral-800"
+                  target="_blank"
+                >
+                  live
+                </a>
+              </h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, idx) => (
                 <span
