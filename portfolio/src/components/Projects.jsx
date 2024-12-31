@@ -23,7 +23,6 @@ export default function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                // height={150}
                 width={220}
                 className="mb-6 rounded aspect-video object-fill"
               />
@@ -34,14 +33,11 @@ export default function Projects() {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6
-                // href={project.link}
-                className="mb-2 font-semibold"
-              >
+              <h6 className="mb-2 font-semibold">
                 {project.title}
                 <a
                   href={project.link}
-                  className="ml-4 px-4 py-1 bg-neutral-800 text-purple-400 rounded hover:bg-purple-400 hover:text-neutral-800"
+                  className="ml-4 px-4 py-1 bg-neutral-800 text-purple-400 rounded hover:bg-purple-400 hover:text-neutral-800 transition-colors"
                   target="_blank"
                 >
                   live

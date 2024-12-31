@@ -28,10 +28,17 @@ export default function Contact() {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className="border-b block w-fit mx-auto my-4">
+        <a
+          href="#"
+          className="border-b block w-fit mx-auto my-4 hover:text-blue-400 hover:border-b-blue-400 transition"
+        >
           {CONTACT.email}
         </a>
-        <a href={CONTACT.resume} className="border-b" target="blank_">
+        <a
+          href={CONTACT.resume}
+          className="border-b hover:text-blue-400 hover:border-b-blue-400 transition"
+          target="blank_"
+        >
           RESUME
         </a>
       </div>
