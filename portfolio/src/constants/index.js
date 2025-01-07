@@ -94,7 +94,7 @@ export const EDUCATIONS = [
 
 export const CONTACT = {
   address: "San Jose, California ",
-  phoneNo: "+1 702 713 0162 ",
+  phoneNo: "+1 702 703 0162 ",
   email: "jiaying.hou.job@gmail.com",
   resume:
     "https://docs.google.com/document/d/1rtSu7vAOKp_vs_37RnDAufFobA7PKBqUQK5YS9k3TU4/edit?usp=sharing",
