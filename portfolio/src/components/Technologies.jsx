@@ -2,7 +2,8 @@ import { RiReactjsLine } from "react-icons/ri";
 // import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { SiSpring } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+// import { DiRedis } from "react-icons/di";
+import { AiOutlineDotNet } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "motion/react";
@@ -66,7 +67,7 @@ export default function Technologies() {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700" />
+          <AiOutlineDotNet className="text-7xl text-white" />
         </motion.div>
         <motion.div
           variants={iconVariants(3.5)}
